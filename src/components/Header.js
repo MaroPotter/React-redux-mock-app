@@ -81,6 +81,7 @@ class Header extends React.PureComponent {
 
           <LoggedOutView currentUser={this.props.currentUser} />
 
+
           <LoggedInView currentUser={this.props.currentUser} />
         </div>
       </nav>

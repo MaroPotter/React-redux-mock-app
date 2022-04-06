@@ -10,7 +10,7 @@ describe('src/components/Header specs', () => {
 
     });
     it('should return null when loaded/passing props.currentUser does not exist', () => {
-        return render(<Header></Header>);
+        // return render(<Header></Header>);
         // const result = ;
         // expect(result).toBeNull();
     });
