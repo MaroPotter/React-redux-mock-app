@@ -2,6 +2,7 @@
 module.exports = {
 
   "esModuleInterop": true,
-  "allowSyntheticDefaultImports": true
+  "allowSyntheticDefaultImports": true,
+  verbose: true
 };
 

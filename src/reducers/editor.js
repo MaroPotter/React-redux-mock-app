@@ -7,6 +7,9 @@ import {
   REMOVE_TAG,
   UPDATE_FIELD_EDITOR
 } from '../constants/actionTypes';
+export const reducerInitialState = {
+
+};
 
 export default (state = {}, action) => {
   switch (action.type) {

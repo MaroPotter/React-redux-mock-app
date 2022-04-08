@@ -14,7 +14,7 @@ const LoggedOutView = React.memo(props => {
 
         <li className="nav-item">
           <Link to="/login" className="nav-link">
-            Sign in
+              Sign in
           </Link>
         </li>
 
@@ -79,10 +79,10 @@ class Header extends React.PureComponent {
             {this.props.appName.toLowerCase()}
           </Link>
 
-          <LoggedOutView currentUser={this.props.currentUser} />
+          <LoggedOutView currentUser={this.props.currentUser} data-testid={"logged-out-view"}/>
 
 
-          <LoggedInView currentUser={this.props.currentUser} />
+          <LoggedInView currentUser={this.props.currentUser} data-testid="logged-in-view"/>
         </div>
       </nav>
     );
